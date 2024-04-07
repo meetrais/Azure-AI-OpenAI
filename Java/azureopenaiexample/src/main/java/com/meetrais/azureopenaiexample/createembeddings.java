@@ -7,8 +7,10 @@ public class createembeddings {
     @RequestMapping("api/createembeddings")  
     public String createandSaveEmbeddings()   
     {  
-        return "Hello Azure Open AI";  
-
+        
+        
+        
+        return "true";  
         
     }  
 }

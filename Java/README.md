@@ -1,2 +1,3 @@
 https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-openai_1.0.0-beta.7/sdk/openai/azure-ai-openai
 https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/openai/azure-ai-openai/src/samples/java/com/azure/ai/openai/usage/GetEmbeddingsSample.java
+https://docs.spring.io/spring-ai/reference/index.html
