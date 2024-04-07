@@ -8,6 +8,24 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width" />
 	<base href="/" />
+	<script type="text/javascript">
+        function callChatAPI(){
+			var question = document.getElementById("question").value
+            var apiUrl = 'api/getChatResponse?message=question';
+			var answerControl = document.getElementById("answerControl")
+			answerControl.value = "";
+			fetch(apiUrl)
+			.then(function(response) {
+				response.text().then(function(responseString) { 
+					const jsonObject = JSON.parse(responseString);
+					answerControl.value = jsonObject.result.output.content;
+				});
+			}).catch(function() {
+				console.log("error");
+			});
+		}
+ 
+    </script>
 </head>
 
 <body>
@@ -16,7 +34,12 @@
 	</header>
 	<main>
 		<div class="container">
-			
+			<label for="message">Enter your question:</label><input type="text" id="question" style="width:450px;">
+			<button onclick="callChatAPI()">Submit</button>
+		</div>
+		<div>
+			<br><br><br>
+			<textarea id="answerControl" name="w3review" style="width: 600px;height: 300px;"></textarea>
 		</div>
 	</main>
 
