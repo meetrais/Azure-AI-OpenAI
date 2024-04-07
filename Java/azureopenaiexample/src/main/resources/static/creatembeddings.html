@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Demo</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width" />
+	<base href="/" />
+    <script type="text/javascript">
+        function callCreateEmbeddingsAPI(){
+            var apiUrl = 'api/createembeddings';
+            fetch(apiUrl).then(response => {
+               alert('Embeddings of your data saved successfully. !!!')
+            })
+        }
+ 
+    </script>
+        
+</head>
+
+<body>
+	<header>
+		<h1>Create Embeddings</h1>
+	</header>
+	<main>
+		<div class="container">
+            <button onclick="callCreateEmbeddingsAPI()">Submit</button>
+
+		</div>
+	</main>
+
+</body>
+
+</html>

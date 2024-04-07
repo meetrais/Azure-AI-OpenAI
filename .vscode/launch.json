@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AzureopenaiexampleApplication<azureopenaiexample>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.meetrais.azureopenaiexample.AzureopenaiexampleApplication",
+            "projectName": "azureopenaiexample",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
