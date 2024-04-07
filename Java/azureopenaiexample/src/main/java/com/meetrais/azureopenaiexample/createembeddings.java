@@ -40,9 +40,11 @@ public class createembeddings {
         try
         {
             List<Document> documents = new ArrayList<>();
-            Path filePath = Paths.get("/data/USA.PDF");
+            //Path filePath = Paths.get("/USA.PDF");
+            File file = new File("src/main/resources/data/USA.PDF");
+            String absolutePath = file.getAbsolutePath();
                 PagePdfDocumentReader pdfReader = new PagePdfDocumentReader(
-                        "file:" + filePath.toString(),
+                        "file:" + absolutePath,
                         PdfDocumentReaderConfig.builder()
                                 .withPageTopMargin(0)
                                 .withPageBottomMargin(0)
