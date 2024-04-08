@@ -1,12 +1,13 @@
 # Azure-AI ~ OpenAI & AI-Search
 
 ## Introduction
-This GitHub repo is for code samples of Microsoft Azure-AI Search(Cognitive) & Azure OpenAI services. It demonstrates how to develop Retrieval Augmented Generation(RAG) based chat-bot by consuming Azure-AI services like OpenAI and Azure-Search(Cognitive). You can refer to code folder of your choice of programminh language - Java, Python(TBD) ot Dot Net(TBD). Please feel free to reach out to me if you find any bugs or have suggesions for improvement. I strongly recommend to read this documentation before you dive into the code. Happy Azure-AI programming.
+This GitHub repo is for code samples of Microsoft Azure-AI Search(Cognitive) & Azure OpenAI services. It demonstrates how to develop Retrieval Augmented Generation(RAG) based chat-bot by consuming Azure-AI services like OpenAI and Azure-Search(Cognitive). You can refer to code folder of your choice of programminh language - Java, Python(TBD) or Dot Net(TBD). Please feel free to reach out to me if you find any bugs or have suggestions for improvement. I strongly recommend to read this documentation before you dive into the code. Happy Azure-AI programming.
 
 ## Setup Azure AI Services
 
 ### Request for Azure OpenAI Service access
 First thing first, request for Azure Open-AI service access. Dont worry, initially I had a doubt if my request will be approved? however my request got approved in 24 hours.
+
 [Request Access to Azure OpenAI Service
 ](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUNTZBNzRKNlVQSFhZMU9aV09EVzYxWFdORCQlQCN0PWcu)
 
@@ -19,6 +20,10 @@ First thing first, request for Azure Open-AI service access. Dont worry, initial
 
 3. Once you created Azure OpenAI service you go to your Azure OpenAI service resource and then select "Go to Azure OpenAI Studio" link.
    <img width="934" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/cf7f70d2-bc4c-4fce-ab57-be26b29ded08">
+
+4. Following above link you should bring you to this beautiful page.
+   <img width="928" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/5b317379-80f3-43f8-a6d8-ab4f662240ca">
+
 
 
 
