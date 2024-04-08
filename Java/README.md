@@ -18,19 +18,23 @@ On your maching you have JAva 17 or higher, IDE like VS-Code/IntelliJ/STS
 3. chat.html  
 ### Resources
 1. application.properties - This is where initialization of Azure OpenAI and Pinecone properties done.  
-2. data - This containes PDF file.  
+2. data - This contains PDF file.  
 
 ## Spring AI
 In this Project, I used below dependencies/libraries from Spring AI.  
 1. spring-ai-azure-openai-spring-boot-starter  
 2. spring-ai-pdf-document-reader  
-3. spring-ai-pinecone
+3. spring-ai-pinecone  
 
 Please refer below link to explore and learn more about Spring AI.  
 [Spring AI](https://docs.spring.io/spring-ai/reference/index.html)
 
+## Pinecone Vector Database
+Please refer below link to register and create vector database on Pinecone.  
+[Pinecone Vector Database](https://www.pinecone.io/)
 
-
+Please refer below Spring AI documentation links to integrate different vector databases in your Retrieval Augmented Generation(RAG) application.  
+[Spring AI - Vector Databases Integration](https://docs.spring.io/spring-ai/reference/api/vectordbs.html)
 
 
 
