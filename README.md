@@ -30,7 +30,9 @@ First thing first, request for Azure Open-AI service access. Dont worry, initial
 6. Now create deployments by selecting "Create new Deployment" button. If you notice in below image, I created two deployments. First deployment for text-embeddings using openAI "text-embedding-ada-002" model and second deployment for chat/chat-completion using "gpt-35-turbo" model.
   <img width="776" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/c4e5eb0c-06dc-46ea-a361-e708db73410f">
 
+## Deep-Dive into Code
+Assuming by this time you have your Azure-AI services setup complete and you created model deployments, lets deep-dive into the code. Please refer to code folder of programming language of your choice above or you can use below link.
 
-
+[Java](https://github.com/meetrais/Azure-AI-Search-OpenAI/tree/main/Java)
 
 
