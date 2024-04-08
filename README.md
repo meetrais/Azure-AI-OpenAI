@@ -15,7 +15,7 @@ First thing first, request for Azure Open-AI service access. Dont worry, initial
 1. In your Azure Portal account search for Azure OpenAI and then select "Azure OpenAI" service.
    ![image](https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/f9ca7994-b570-46a4-b515-b7f3671dfe49)
 
-2. After following step#1 you will see below page. Select "Azure OpenAI" button and follow remaining steps.
+2. After following step#1 you will see below page. Select "Create Azure OpenAI" button and follow remaining steps.
    ![image](https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/3ebc7772-a747-49c5-a296-0e298872c1f8)
 
 3. Once you created Azure OpenAI service you go to your Azure OpenAI service resource and then select "Go to Azure OpenAI Studio" link.
@@ -23,6 +23,12 @@ First thing first, request for Azure Open-AI service access. Dont worry, initial
 
 4. Following above link you should bring you to this beautiful page.
    <img width="928" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/5b317379-80f3-43f8-a6d8-ab4f662240ca">
+
+5. Now select "Deployments" option from left-menu and that should bring to this page.
+   <img width="954" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/12618250-ed45-4af6-a8c5-ac6c351e7046">
+
+6. Now create deployments by selecting "Create new Deployment" button. If you notice in below image, I created two deployments. First deployment for text-embeddings using openAI "text-embedding-ada-002" model and second deployment for chat/chat-completion using "gpt-35-turbo" model.
+   <img width="776" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/8aaf1e98-4b0e-4947-b372-90600591c83d">
 
 
 
