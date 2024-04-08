@@ -2,9 +2,9 @@
 
 ## Project Structure
 azureopenaiexample  
-  -> src  
-    -> main  
-      -> java/com/meetrais  
+&nbsp;-> src  
+&ensp;-> main  
+-> java/com/meetrais  
         -> azureopenaiexample  
           > AzureopenaiexampleApplication.java (Main)  
           > ChatWithData.java  
