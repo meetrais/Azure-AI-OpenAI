@@ -12,4 +12,8 @@ This GitHub repo is for code samples of Microsoft Azure-AI Search(Cognitive) & A
 2. After following step#1 you will see below page. Select "Azure OpenAI" button and follow remaining steps.
    ![image](https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/3ebc7772-a747-49c5-a296-0e298872c1f8)
 
+3. Once you created Azure OpenAI service you go to your Azure OpenAI service resource and then select "Go to Azure OpenAI Studio" link.
+   <img width="934" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/cf7f70d2-bc4c-4fce-ab57-be26b29ded08">
+
+
 
