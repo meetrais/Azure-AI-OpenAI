@@ -1,9 +1,9 @@
 # Overview of Java Code base.
 
 ## Project Structure
-azureopenaiexample
-  -> src
-    -> main
+azureopenaiexample  
+  -> src  
+    -> main  
       -> java/com/meetrais
         -> azureopenaiexample
           > AzureopenaiexampleApplication.java (Main)
