@@ -2,7 +2,7 @@
 
 ## Prerequisites
 ### Knowledge
-You have basic knowledge of Java, Spring-Boot, HTML, JavaScript and Microsoft Azure
+Basic knowledge of Java, Spring-Boot, HTML, JavaScript and Microsoft Azure
 ### Setup
 On your maching you have JAva 17 or higher, IDE like VS-Code/IntelliJ/STS
 
