@@ -1,3 +1,23 @@
-https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-openai_1.0.0-beta.7/sdk/openai/azure-ai-openai
-https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/openai/azure-ai-openai/src/samples/java/com/azure/ai/openai/usage/GetEmbeddingsSample.java
-https://docs.spring.io/spring-ai/reference/index.html
+# Overview of Java Code base.
+
+## Project Structure
+azureopenaiexample
+  -> src
+    -> main
+      -> java/com/meetrais
+        -> azureopenaiexample
+          > AzureopenaiexampleApplication.java (Main)
+          > ChatWithData.java
+          > Embeddings.java
+          > ServletInitializer.java
+      -> resources
+         > application.properties
+        -> data
+          Place your PDF file here. 
+        -> static
+          > index.html
+          > creatembeddings.html
+          > chat.html
+          
+       
+          
