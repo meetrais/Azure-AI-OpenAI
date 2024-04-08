@@ -19,6 +19,7 @@
 				response.text().then(function(responseString) { 
 					const jsonObject = JSON.parse(responseString);
 					answerControl.value = jsonObject.result.output.content;
+					return jsonObject.result
 				});
 			}).catch(function() {
 				console.log("error");
@@ -38,7 +39,9 @@
 			<button onclick="callChatAPI()">Submit</button>
 		</div>
 		<div>
-			<br><br><br>
+			<br><br>
+			Note - Assuming you are from devlopment background I am showing complete JSON response.
+			<br>
 			<textarea id="answerControl" name="w3review" style="width: 600px;height: 300px;"></textarea>
 		</div>
 	</main>
