@@ -14,8 +14,8 @@ Java, Spring-Boot, HTML, Spring-AI, Pinecone Vector Database
 <img width="185" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/873a7202-6cb4-4c4d-8502-d8e99c6f0b4b">
 
 ### Java/Backend  
-1. Embeddings.java  
-2. ChatWithData.java  
+1. Embeddings.java - To tokenize/chunking og PDF file and create embeddings/vector-data. Then it saves vector-data to Pinecone Vector Database.  
+2. ChatWithData.java - To perform semantic search for user's input on vecror-data.  
 ### UI
 1. index.html  
 2. creatembeddings.html  
