@@ -6,7 +6,7 @@ Basic knowledge of Java, Spring-Boot, HTML, JavaScript, Microsoft Azure and Gene
 ### Setup
 On your maching you have JAva 17 or higher, IDE like VS-Code/IntelliJ/STS
 
-## Overview
+## Overview of Code
 ### Technologies Used
 Java, Spring-Boot, HTML, Spring-AI, Pinecone Vector Database
 
