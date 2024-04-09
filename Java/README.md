@@ -6,7 +6,11 @@ Basic knowledge of Java, Spring-Boot, HTML, JavaScript, Microsoft Azure and Gene
 ### Setup
 On your maching you have JAva 17 or higher, IDE like VS-Code/IntelliJ/STS
 
-## Project Structure
+## Overview
+### Technologies Used
+Java, Spring-Boot, HTML, Spring-AI, Pinecone Vector Database
+
+### Project Structure
 <img width="185" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/873a7202-6cb4-4c4d-8502-d8e99c6f0b4b">
 
 ### Java/Backend  
