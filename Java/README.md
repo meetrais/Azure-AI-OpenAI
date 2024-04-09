@@ -1,4 +1,4 @@
-# Overview of Java Code base.
+# Overview
 
 ## Prerequisites
 ### Knowledge
