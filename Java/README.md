@@ -4,7 +4,7 @@
 ### Knowledge
 Basic knowledge of Java, Spring-Boot, HTML, JavaScript, Microsoft Azure and Generative-AI concepts like LLM, Vector data, Embeddings, Semantic/Vector search.
 ### Setup
-On your maching you have JAva 17 or higher, IDE like VS-Code/IntelliJ/STS
+On your maching you have Java 17 or higher, IDE like VS-Code/IntelliJ/STS
 
 ## Overview of Code
 ### Technologies Used
