@@ -13,7 +13,7 @@ AZURE_OPENAI_SERVICE = ApplicationKeys.AZURE_OPENAI_SERVICES
 AZURE_OPENAI_ADA_DEPLOYMENT = ApplicationKeys.AZURE_OPENAI_ADA_DEPLOYMENT
 AZURE_OPENAI_KEY= ApplicationKeys.AZURE_OPENAI_KEY
 
-#Create Vector DB
+#Create Embeddings using langchain and store to FAISS Vector store
 def CreateVectorDBAndSaveEmbeddings():
     loader = PyPDFLoader(file_path=DATA_PATH)
     pages = loader.load_and_split()

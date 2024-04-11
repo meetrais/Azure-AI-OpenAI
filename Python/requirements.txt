@@ -4,3 +4,4 @@ pypdf
 tiktoken
 langchain-openai
 faiss-cpu
+gradio
