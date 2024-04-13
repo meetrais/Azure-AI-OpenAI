@@ -1,7 +1,7 @@
 # Azure-AI ~ OpenAI
 
 ## Introduction
-This GitHub repo is for code samples of Microsoft Azure-AI Search(Cognitive) & Azure OpenAI services. It demonstrates how to develop Retrieval Augmented Generation(RAG) based chat-bot by consuming Azure-AI services like OpenAI and Azure-Search(Cognitive). You can refer to code folder of your choice of programming language - Java, Python or Dot Net(TBD). Please feel free to reach out to me if you find any bugs or have suggestions for improvement. I strongly recommend to read this documentation before you dive into the code. Happy Azure-AI programming.
+This GitHub repository demonstrates how to develop Retrieval Augmented Generation(RAG) based chat-bot using Microsoft-Azure OpenAI service. You can refer to code folder of your choice of programming language - Java, Python or Dot Net(TBD). Please feel free to reach out to me if you find any bugs or have suggestions for improvement. I strongly recommend to read this documentation before you dive into the code. Happy Azure-AI programming.
 
 ## Setup Azure AI Services
 
