@@ -8,6 +8,13 @@ Basic knowledge of Java, Spring-Boot, HTML, JavaScript, Microsoft Azure and Gene
 . IDE like VS-Code/IntelliJ/STS  
 . Microsoft Azure Subscription
 
+## High Level Diagram
+### Cretae and Save Embeddings Flow
+<img width="530" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/f8467415-743d-45e2-b4a7-d514d7d6ea26">
+
+### Chat Flow
+<img width="470" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/2d464dc1-a3d7-452c-a920-e770f6497193">
+
 ## Overview of Code
 ### Technologies Used
 . Java, Spring-Boot  
