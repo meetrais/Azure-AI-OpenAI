@@ -6,4 +6,3 @@ langchain-openai
 faiss-cpu
 gradio
 llama-index-vector-stores-faiss
-llama-index
