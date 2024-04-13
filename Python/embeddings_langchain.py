@@ -24,4 +24,4 @@ def CreateVectorDBAndSaveEmbeddings():
                 api_key=AZURE_OPENAI_KEY,
                 chunk_size=1)
     db = FAISS.from_documents(documents=pages, embedding=embeddings)
-    db.save_local(DB_FAISS_PATH)
+    db.save_local(DB_FAISS_PATH, index_name="faiss_langchain")
