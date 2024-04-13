@@ -14,7 +14,7 @@ Basic knowledge of Python, HTML, JavaScript, Microsoft Azure and Generative-AI c
 <img width="533" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/294c6754-e2c8-457f-946a-e73b52f981fd">
 
 ### Chat Flow
-![image](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/df54924b-02a0-4f3f-b951-22aaabffe5c2)
+<img width="533" alt="image" src="https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/df54924b-02a0-4f3f-b951-22aaabffe5c2">
 
 ## Overview of Code
 ### Technologies Used
