@@ -33,6 +33,7 @@ First thing first, request for Azure Open-AI service access. Don't worry, initia
 ## Deep-Dive into Code
 Assuming by this time you have your Azure-AI services setup complete and you created model deployments in Azure-OpenAI, lets deep-dive into the code. Please refer to code folder of programming language of your choice above or you can use below link.
 
-[Java](https://github.com/meetrais/Azure-AI-Search-OpenAI/tree/main/Java)
+[Java](https://github.com/meetrais/Azure-AI-Search-OpenAI/tree/main/Java)  
+[Python](https://github.com/meetrais/Azure-AI-OpenAI/tree/main/Python)
 
 
