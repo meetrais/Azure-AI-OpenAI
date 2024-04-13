@@ -4,11 +4,16 @@
 ### Knowledge
 Basic knowledge of Java, Spring-Boot, HTML, JavaScript, Microsoft Azure and Generative-AI concepts like LLM, Vector data, Embeddings, Semantic/Vector search.
 ### Setup
-On your maching you have Java 17 or higher, IDE like VS-Code/IntelliJ/STS
+. Java 17 or higher  
+. IDE like VS-Code/IntelliJ/STS  
+. Microsoft Azure Subscription
 
 ## Overview of Code
 ### Technologies Used
-Java, Spring-Boot, HTML, Spring-AI, Pinecone Vector Database
+. Java, Spring-Boot  
+. HTML  
+. Spring-AI  
+. Pinecone Vector Database
 
 ### Project Structure
 <img width="185" alt="image" src="https://github.com/meetrais/Azure-AI-Search-OpenAI/assets/17907862/873a7202-6cb4-4c4d-8502-d8e99c6f0b4b">
