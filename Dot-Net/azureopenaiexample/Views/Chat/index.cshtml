@@ -1,0 +1,19 @@
+<div>
+    <input type="text" id="userMessage" style="width: 600px;"></input>
+    <button id="submit" onclick="callGetChatResponse()">Submit</button>
+</div>
+<div><br/><br/> </div>
+<div id="chatArea" style="border:5px solid black;"></div>
+
+<script>
+    function callGetChatResponse(){
+        var userMessage = $("#userMessage").val();
+
+        $.post("/Chat/GetChatResponse", {userQuestion: userMessage}, function(data){
+            $("#chatArea").append("<p>User: " + userMessage + "</p>");
+            $("#chatArea").append("<p>ChatBot: " + data.response + "</p>");
+
+        });
+    }
+
+</script>
