@@ -1,19 +1,52 @@
 <div>
+    <h2>Chat with your Azure OpenAI Model</h2>
     <input type="text" id="userMessage" style="width: 600px;"></input>
     <button id="submit" onclick="callGetChatResponse()">Submit</button>
 </div>
 <div><br/><br/> </div>
 <div id="chatArea" style="border:5px solid black;"></div>
+<p></p>
+<div>
+    <h2>Chat with your data using Azure OpenAI</h2>
+    <input type="text" id="userMessage2" style="width: 600px;"></input>
+    <button id="submit2" onclick="callGetChatWithYourDataResponse()">Submit</button>
+</div>
+<div><br/><br/> </div>
+<div id="chatArea2" style="border:5px solid black;"></div>
 
 <script>
     function callGetChatResponse(){
         var userMessage = $("#userMessage").val();
 
-        $.post("/Chat/GetChatResponse", {userQuestion: userMessage}, function(data){
+        $.get("/Chat/GetChatResponse", {userQuestion: userMessage}, function(data){
             $("#chatArea").append("<p>User: " + userMessage + "</p>");
             $("#chatArea").append("<p>ChatBot: " + data.response + "</p>");
 
         });
     }
+
+    var userMessageControl = document.getElementById("userMessage");
+    userMessageControl.addEventListener("keydown", function (e) {
+    if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
+        callGetChatResponse(e);
+    }
+    });
+
+    function callGetChatWithYourDataResponse(){
+        var userMessage = $("#userMessage2").val();
+
+        $.get("/Chat/GetChatWithYourDataResponse", {userQuestion: userMessage}, function(data){
+            $("#chatArea2").append("<p>User: " + userMessage + "</p>");
+            $("#chatArea2").append("<p>ChatBot: " + data.response + "</p>");
+
+        });
+    }
+
+    var userMessageControl2 = document.getElementById("userMessage2");
+    userMessageControl2.addEventListener("keydown", function (e) {
+    if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
+        callGetChatWithYourDataResponse(e);
+    }
+    });
 
 </script>

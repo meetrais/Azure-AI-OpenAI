@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("azureopenaiexample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cccf61bb7ae962ac9e639d41fd3c193614290399")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2aa14cbcf281188a099563e6cef55f313c371f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("azureopenaiexample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("azureopenaiexample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
