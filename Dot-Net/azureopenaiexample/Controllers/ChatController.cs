@@ -74,15 +74,16 @@ public class ChatController : Controller
             string model = Environment.GetEnvironmentVariable("AZURE_OPENAI_MODEL");
 
             OpenAIClient client = new OpenAIClient(new Uri(endpoint), new Azure.AzureKeyCredential(key));
-            string pdfText = GetTextFromPDF(@"YOUR_PDF_FILE_PATH");
+            string pdfText = GetTextFromPDF(@"Your_PDF_File_Path");
             if(pdfText.Length>8192)
                 pdfText = pdfText.Substring(0,8192);//I am using gpt-35-turbo which has max context length of 8192.
             var chatCompletionOptions = new ChatCompletionsOptions(){
                 DeploymentName=model,
                 Messages={
                     new ChatRequestSystemMessage("You are a helpful AI assistant."),
-                    new ChatRequestUserMessage("Information from your PDF: " + pdfText),
-                    new ChatRequestUserMessage(userQuestion)
+                    new ChatRequestUserMessage(userQuestion),
+                    new ChatRequestUserMessage("Customized ChatBot: " + pdfText)
+                    
             },
             MaxTokens=500,
             Temperature=0//No Creativity, more grounded response
