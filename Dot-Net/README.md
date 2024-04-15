@@ -10,7 +10,7 @@ Basic knowledge of .Net, HTML, JavaScript, Microsoft Azure and Generative-AI con
 
 ## High Level Diagram
 ### Chat Flow
-<img width="478" alt="image" src="https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/c346c772-1914-41ae-8aa8-02fda9b9ae93">
+<img width="472" alt="image" src="https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/f8675a4b-a086-4eae-85ee-37ee0f596a82">
 
 ## Overview of Code
 ### Technologies Used
