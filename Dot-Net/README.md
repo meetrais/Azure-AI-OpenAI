@@ -10,7 +10,7 @@ Basic knowledge of .Net, HTML, JavaScript, Microsoft Azure and Generative-AI con
 
 ## High Level Diagram
 ### Chat Flow
-
+<img width="478" alt="image" src="https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/c346c772-1914-41ae-8aa8-02fda9b9ae93">
 
 ## Overview of Code
 ### Technologies Used
@@ -19,12 +19,13 @@ Basic knowledge of .Net, HTML, JavaScript, Microsoft Azure and Generative-AI con
 . Azure OpenAI SDK
 
 ### Project Structure
+<img width="194" alt="image" src="https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/7ed0805a-c579-41d8-9b08-43221bd6aeb6">
 
+### .Net/Backend  
+ChatController.cs - This .Net MVC controller class has two HTTPGet methods/services.  
+1. GetChatResponse - To return response from Azure-OpenAI service by using gpt-35-turbo model.  
+2. GetChatWithYourDataResponse - To return response from Azure-OpenAI service by using gpt-35-turbo model and your PDF data. 
+  
 
-### Java/Backend  
-1. Embeddings.java - To tokenize/chunking og PDF file and create embeddings/vector-data. Then it saves vector-data to Pinecone Vector Database.  
-2. ChatWithData.java - To perform semantic search for user's input on vecror-data.  
 ### UI
-1. index.html  
-2. creatembeddings.html  
-3. chat.html  
+1. Chat/index.cshtml  - Has UI for ChatBots using gpt-35-turbo model and chat with your data.
