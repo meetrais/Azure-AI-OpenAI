@@ -6,7 +6,7 @@ Basic knowledge of Python, HTML, JavaScript, Microsoft Azure and Generative-AI c
 
 ### Setup
 . Python  
-. IDE like VS-Code/IntelliJ/STS  
+. IDE like VS-Code  
 . Microsoft Azure Subscription  
 
 ## High Level Diagram
