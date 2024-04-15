@@ -2,7 +2,7 @@
 
 ## Prerequisites
 ### Knowledge
-Basic knowledge of .Net, HTML, JavaScript, Microsoft Azure and Generative-AI concepts like LLM, Vector data, Embeddings, Semantic/Vector search.
+Basic knowledge of ASP.Net, MVC, HTML, JavaScript, Microsoft Azure and Generative-AI concepts like LLM, Vector data, Embeddings, Semantic/Vector search.
 ### Setup
 . Dot Net Framework  
 . IDE like VS-Code/Visual-Studio  
@@ -14,7 +14,7 @@ Basic knowledge of .Net, HTML, JavaScript, Microsoft Azure and Generative-AI con
 
 ## Overview of Code
 ### Technologies Used
-. Dot Net, MVC  
+. ASP.Net, MVC  
 . HTML  
 . Azure OpenAI SDK
 
