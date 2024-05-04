@@ -11,10 +11,11 @@ Basic knowledge of Python, HTML, JavaScript, Microsoft Azure and Generative-AI c
 
 ## High Level Diagram
 ### Cretae and Save Embeddings Flow
-<img width="533" alt="image" src="[https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/df54924b-02a0-4f3f-b951-22aaabffe5c2](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/6a798d50-61da-4726-a9a5-7bcd79587130)">
+![image](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/5ae3b4f9-ceb8-4cd3-852b-88abef88b8de)
 
 ### Chat Flow
-<img width="533" alt="image" src="[https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/df54924b-02a0-4f3f-b951-22aaabffe5c2](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/c08e5bf7-7135-49df-928d-47610321d540)">
+![image](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/3033381d-9ff6-4b0d-b56f-1ac7f43896c3)
+
 
 ## Overview of Code
 ### Technologies Used
