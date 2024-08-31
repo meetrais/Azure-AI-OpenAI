@@ -10,7 +10,7 @@ Basic knowledge of Python, HTML, JavaScript, Microsoft Azure and Generative-AI c
 . Microsoft Azure Subscription  
 
 ## High Level Diagram
-### Cretae and Save Embeddings Flow
+### Create and Save Embeddings Flow
 ![image](https://github.com/meetrais/Azure-AI-OpenAI/assets/17907862/5ae3b4f9-ceb8-4cd3-852b-88abef88b8de)
 
 ### Chat Flow
